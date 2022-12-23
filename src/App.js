@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./component/Layout/Header/Header";
 import MealUl from "./component/Layout/MealItem/MealUl";
 import MealCard from "./component/Layout/MealCard/MealCard";
@@ -28,11 +28,18 @@ const DUMMY_MEALS = [
     price: 18.99,
   },
 ];
+
+
 function App() {
+  const [valid, setValid] = useState(false);
+ 
+  const cardHandler = (a) =>{
+   setValid(a)
+  }
   return (
     <div>
-      <Header/>
-      <MealCard/>
+      <Header cardHandler ={cardHandler}/>
+    {valid &&<MealCard cardHandler ={cardHandler} />}
       <MealUl DUMMY_MEALS = {DUMMY_MEALS}/>
     </div>
   );
