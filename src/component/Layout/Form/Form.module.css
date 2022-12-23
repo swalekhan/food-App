@@ -1,0 +1,19 @@
+.form{
+    /* display: flex; */
+}
+
+.form button{
+   background-color: rgb(234, 90, 51);
+   border: none;
+   border-radius: 10px;
+   color: white;
+   padding: 5px 15px;
+   display: block;
+}
+
+.form div p span{
+    display: inline;
+    border: 1px solid rgb(227, 226, 223);
+    padding: 0px 10px;
+    margin: 0px 3px;
+}

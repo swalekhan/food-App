@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./component/Layout/Header/Header";
 import MealUl from "./component/Layout/MealItem/MealUl";
+import MealCard from "./component/Layout/MealCard/MealCard";
 const DUMMY_MEALS = [
   {
     id: 'm1',
@@ -31,6 +32,7 @@ function App() {
   return (
     <div>
       <Header/>
+      <MealCard/>
       <MealUl DUMMY_MEALS = {DUMMY_MEALS}/>
     </div>
   );

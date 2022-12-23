@@ -14,4 +14,5 @@
 .li span.price{
     color:rgb(231, 89, 37);
     font-weight: bold;
+    display: inline;
 }

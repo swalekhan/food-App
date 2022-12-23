@@ -1,0 +1,38 @@
+.container-card{
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    margin: auto;
+}
+.container-card h3{
+    display: inline-block;
+    margin: 0px 70px;
+}
+p{
+    margin: 15px;
+    padding: 5px;
+}
+
+.container-card div{
+   margin-left: 300px;
+   /* border: 1px solid red; */
+}
+button{
+    margin: 10px;
+    padding: 7px 15px;
+    border-radius: 15px;
+}
+
+button.close-btn{
+    border: 1px solid rgb(255, 146, 22);
+    background-color: white;
+    color: rgb(255, 146, 22) ;
+}
+
+button.order-btn{
+    background-color: rgb(255, 126, 34);
+    color: white;
+    border: none;
+}

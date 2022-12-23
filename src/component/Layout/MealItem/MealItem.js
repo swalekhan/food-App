@@ -1,3 +1,4 @@
+import Form from '../Form/Form';
 import classes from './MealItem.module.css'
 const MealItem = (props) =>{
 return (
@@ -5,7 +6,8 @@ return (
     <span className={classes.name}>{props.name}</span>
     <span>{props.description} </span>
     <span className={classes.price}>${props.price}</span>
-   </li>
+   <Form/>
+    </li>
 )
 }
 export default MealItem;
