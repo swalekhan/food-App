@@ -1,0 +1,10 @@
+.ul{
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 200px;
+    overflow: auto;
+}

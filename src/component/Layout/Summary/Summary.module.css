@@ -1,0 +1,16 @@
+.container-summary{
+    max-width: 45rem;
+  width: 90%;
+    background-color: rgb(49, 48, 48);
+    margin: -10rem auto;
+    text-align: center;
+    color: white;
+    font-family: serif;
+    border-radius: 8px;
+    position: relative;
+    padding: 1rem;
+    
+    z-index: 0;
+}
+
+ 

@@ -1,0 +1,17 @@
+.li{
+    list-style: none;
+    border-bottom: 1.3px solid rgb(220, 212, 212);
+    margin-top: 20px;
+}
+.li span{
+    display: block;
+    margin-left: -5px;
+}
+.li span.name{
+    font-size: large;
+   font-weight: bold;
+}
+.li span.price{
+    color:rgb(231, 89, 37);
+    font-weight: bold;
+}
